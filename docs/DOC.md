@@ -1,9 +1,9 @@
 # User Guide
-Overview
+## Overview
 The To-Do List App is a Flutter application that helps you manage your tasks and stay organized. This guide provides instructions on how to use the app and its features effectively.
 
-** Features
-Create a Task: Add new tasks to your to-do list.
+## Features
+* Create a Task: Add new tasks to your to-do list.
 Edit a Task: Modify the details of an existing task.
 Delete a Task: Remove a task from your to-do list.
 Set Due Dates: Assign due dates to your tasks to prioritize them.
