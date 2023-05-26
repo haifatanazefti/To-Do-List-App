@@ -84,10 +84,10 @@ flutter run
 ## Dependencies
 The To-Do List App relies on the following dependencies:
 
-flutter: The Flutter SDK for building cross-platform applications.
-sqflite: A Flutter plugin for interacting with SQLite databases.
-path: A Flutter plugin for accessing the device's file system.
-flutter_slider_drawer: A Flutter package with custom implementation of the Slider Drawer Menu. 
+- flutter: The Flutter SDK for building cross-platform applications.
+- sqflite: A Flutter plugin for interacting with SQLite databases.
+- path: A Flutter plugin for accessing the device's file system.
+- flutter_slider_drawer: A Flutter package with custom implementation of the Slider Drawer Menu. 
 
 ## Project Structure
 The project follows a modular structure, with the following directories:
