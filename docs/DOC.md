@@ -32,42 +32,48 @@ flutter run
 ```
 
 ## Usage
-* Creating a Task: To add a new task to your to-do list, follow these steps:
+* Creating a to do item : To add a new to do item to your to-do list, follow these steps:
 
-Open the app and navigate to the task list screen.
-Tap the "+" button to create a new task.
-Enter the title and details of the task.
-Optionally, set a due date for the task.
-Tap "Save" to add the task to your to-do list.
-Editing a Task: To modify the details of an existing task, follow these steps:
+- Open the app and navigate to the to do list screen.
+- Tap the "+" button to create a new to do item.
+- Enter the title and details of the to do item.
+- Optionally, set a due date for the task.
+- Tap "Add" to add the to do item to your to-do list.
 
-Open the app and navigate to the task list screen.
-Locate the task you want to edit.
-Tap on the task to open the task details screen.
-Tap the "Edit" button to enter the edit mode.
-Make the necessary changes to the task's title, details, due date, or priority.
-Tap "Save" to save the changes.
-Deleting a Task: To remove a task from your to-do list, follow these steps:
+* Editing a Task: To modify the details of an existing task, follow these steps:
 
-Open the app and navigate to the task list screen.
-Locate the task you want to delete.
-Swipe left on the task to reveal the delete option.
-Tap the "Delete" button to remove the task from your list.
-Setting Due Dates: To assign a due date to a task, follow these steps:
+- Open the app and navigate to the task list screen.
+- Locate the to do you want to edit.
+- Tap on the to do item to open the to do item details screen.
+- Tap the "Edit" button to enter the edit mode.
+- Make the necessary changes to the to-do's title, details, due date, or priority.
+- Tap "Edit" to save the changes.
 
-Open the app and navigate to the task list screen.
-Locate the task you want to set a due date for.
-Tap on the task to open the task details screen.
-Tap the "Due Date" field to open the date picker.
-Select the desired due date from the calendar.
-Tap "Save" to save the due date.
-Prioritizing Tasks: To mark a task as high priority, follow these steps:
+* Deleting a to do item: To remove a to-do from your to-do list, follow these steps:
 
-Open the app and navigate to the task list screen.
-Locate the task you want to prioritize.
-Tap on the task to open the task details screen.
-Toggle the priority switch to the "On" position.
-Tap "Save" to save the priority status.
+- Open the app and navigate to the to do list screen.
+- Locate the to do you want to delete.
+- Swipe left on the task to reveal the delete option.
+- Tap the "Delete" icon to remove the to do item from your list.
+
+* Setting Due Dates: To assign a due date to a to do item, follow these steps:
+
+- Open the app and navigate to the to do item list screen.
+- Locate the to do item you want to set a due date for.
+- Tap on the to do item to open the task details screen.
+- Tap the "Due Date" field to open the date picker.
+- Select the desired due date from the calendar.
+- Tap "Save" to save the due date.
+
+* Prioritizing to do items: To mark a task as high priority, follow these steps:
+
+- Open the app and navigate to the to do list screen.
+- Locate the to do item you want to prioritize.
+- Tap on the to do item to open the task details screen.
+- Toggle the priority switch to the "On" position.
+- Tap "Edit" to save the priority status.
+<font color="red">**Note:**: priority to do items are marked with a red line</font>
+
 Marking as Completed: To mark a task as completed, follow these steps:
 
 Open the app and navigate to the task list screen.
