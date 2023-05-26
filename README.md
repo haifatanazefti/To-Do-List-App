@@ -21,7 +21,7 @@ The To-Do List App is a Flutter application that allows users to create, edit, a
 1. Clone the repository:
 
    ```bash
-   git clone hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+   git clone https://github.com/haifatanazefti/To-Do-List-App.git
 
 2. Navigate to the project directory:
 
