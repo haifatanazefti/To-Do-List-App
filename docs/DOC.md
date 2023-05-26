@@ -74,55 +74,29 @@ flutter run
   - Tap "Edit" to save the priority status.
   - <font color="red">**Note:**  priority to do items are marked with a red line</font>
 
-Marking as Completed: To mark a task as completed, follow these steps:
+* Marking as Completed: To mark a to do item as completed, follow these steps:
 
-Open the app and navigate to the task list screen.
-Locate the task you want to mark as completed.
-Tap on the task to open the task details screen.
-Toggle the completion switch to the "On" position.
-Tap "Save" to save the completion status.
-Syncing with Cloud Service: To sync your tasks with a cloud service, follow these steps:
-
-Open the app and navigate to the settings screen.
-Tap the "Sync" option to open the sync settings.
-Select the desired cloud service (Dropbox, Google Docs, OneDrive, etc.).
-Follow the on-screen instructions to authorize the app with the selected service.
-Once authorized, your tasks will automatically sync with the cloud service.
-Developer Guide
-Architecture
-The To-Do List App follows the MVVM (Model-View-ViewModel) architectural pattern. It utilizes the following components:
-
-Models: Represents the data structure of a task. Contains properties like id, title, dueDate, isPriority, and isCompleted.
-Views: The user interface components responsible for displaying tasks and capturing user interactions.
-ViewModels: Acts as an intermediary between the views and the data layer. Manages the logic for creating, editing, and deleting tasks.
-Dependencies
+  - Open the app and navigate to the to do list screen.
+  - Locate the to do item you want to mark as completed.
+  - Toggle the completion switch to the "On" position in the checkbox in the left side.
+  
+# Developer Guide
+## Dependencies
 The To-Do List App relies on the following dependencies:
 
 flutter: The Flutter SDK for building cross-platform applications.
-provider: A state management library for managing the app's state and implementing the MVVM pattern.
 sqflite: A Flutter plugin for interacting with SQLite databases.
-path_provider: A Flutter plugin for accessing the device's file system.
-flutter_datetime_picker: A Flutter plugin for selecting dates and times from a picker.
-fluttertoast: A Flutter plugin for displaying toast messages.
-Project Structure
+path: A Flutter plugin for accessing the device's file system.
+flutter_slider_drawer: A Flutter package with custom implementation of the Slider Drawer Menu. 
+
+## Project Structure
 The project follows a modular structure, with the following directories:
 
-lib: Contains the main source code of the application.
-data: Contains the data layer components responsible for interacting with the database and cloud services.
-models: Contains the model classes representing the task data structure.
-ui: Contains the user interface components, including screens, widgets, and view models.
-utils: Contains utility classes and functions used throughout the application.
-test: Contains unit tests for various components of the application.
-Contribution Guidelines
-Contributions to the To-Do List App are welcome! If you want to contribute to the project, please follow these guidelines:
-
-Fork the repository and create a new branch for your feature or bug fix.
-Implement your changes, ensuring adherence to the project's coding style and guidelines.
-Write unit tests for your changes to maintain code quality.
-Commit your changes and push them to your forked repository.
-Submit a pull request with a clear description of your changes and the problem it solves.
-Participate in the code review process and address any feedback or comments.
-Please note that all contributions are subject to review and approval by the project maintainers.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+- lib: Contains the main source code of the application.
+- data: Contains the data layer components responsible for interacting with the database.
+- models: Contains the model classes representing the task data structure.
+- screens: Contains the user interface including screens.
+- dialogs: Contains the alert dialogs for adding and editing a to do item.
+- components: Contains the user interface components.
+- utils: Contains utility classes and functions used throughout the application.
+- test: Contains unit tests for various components of the application.
