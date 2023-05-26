@@ -4,35 +4,35 @@ The To-Do List App is a Flutter application that helps you manage your tasks and
 
 ## Features
 * Create a Task: Add new tasks to your to-do list.
-Edit a Task: Modify the details of an existing task.
-Delete a Task: Remove a task from your to-do list.
-Set Due Dates: Assign due dates to your tasks to prioritize them.
-Prioritize Tasks: Mark important tasks as high priority.
-Mark as Completed: Mark tasks as completed when finished.
-Sync with Cloud Service: Connect the app to a cloud service (Dropbox, Google Docs, OneDrive, etc.) to sync your tasks across devices.
-Installation
-Clone the repository:
+* Edit a Task: Modify the details of an existing task.
+* Delete a Task: Remove a task from your to-do list.
+* Set Due Dates: Assign due dates to your tasks to prioritize them.
+* Prioritize Tasks: Mark important tasks as high priority.
+* Mark as Completed: Mark tasks as completed when finished.
 
-bash
-Copy code
+## Installation
+* Clone the repository:
+
+```
 git clone https://github.com/your-username/to-do-list-app.git
-Navigate to the project directory:
+```
+* Navigate to the project directory:
 
-bash
-Copy code
+```
 cd to-do-list-app
-Install the dependencies:
+```
+* Install the dependencies:
 
-bash
-Copy code
+```
 flutter pub get
-Run the app:
-
-bash
-Copy code
+```
+* Run the app:
+```
 flutter run
-Usage
-Creating a Task: To add a new task to your to-do list, follow these steps:
+```
+
+## Usage
+* Creating a Task: To add a new task to your to-do list, follow these steps:
 
 Open the app and navigate to the task list screen.
 Tap the "+" button to create a new task.
