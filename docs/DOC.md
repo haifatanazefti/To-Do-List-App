@@ -34,11 +34,11 @@ flutter run
 ## Usage
 * Creating a to do item : To add a new to do item to your to-do list, follow these steps:
 
-- Open the app and navigate to the to do list screen.
-- Tap the "+" button to create a new to do item.
-- Enter the title and details of the to do item.
-- Optionally, set a due date for the task.
-- Tap "Add" to add the to do item to your to-do list.
+  - Open the app and navigate to the to do list screen.
+  - Tap the "+" button to create a new to do item.
+  - Enter the title and details of the to do item.
+  - Optionally, set a due date for the task.
+  - Tap "Add" to add the to do item to your to-do list.
 
 * Editing a Task: To modify the details of an existing task, follow these steps:
 
