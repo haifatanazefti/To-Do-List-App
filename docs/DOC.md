@@ -32,6 +32,7 @@ flutter run
 ```
 
 ## Usage
+* Getting all the to do items ordered by due date.
 * Creating a to do item : To add a new to do item to your to-do list, follow these steps:
 
   - Open the app and navigate to the to do list screen.
