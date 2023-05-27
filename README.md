@@ -1,7 +1,7 @@
 # To-Do List App
 
 The To-Do List App is a Flutter application that allows users to create, edit, and delete to-do items. It provides features like setting due dates, prioritizing tasks, and marking items as completed. The app uses a local database for data storage and also offers the ability to sync to-do items with a cloud service like Dropbox, Google Docs, or OneDrive.
-## Note: docs/doc.md contains a documentation file.
+### Note: docs/doc.md contains a documentation file.
 ## Features
 
 - Create, Edit, and Delete to-do items in a list.
